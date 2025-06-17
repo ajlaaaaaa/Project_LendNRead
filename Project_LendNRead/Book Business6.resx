@@ -117,4 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>The Storyteller’s Secret by Carmine Gallo explores how powerful storytelling can inspire, influence,
+ and create success. Gallo explains that behind great leaders, entrepreneurs, and speakers—like Steve 
+Jobs, Sheryl Sandberg, and Martin Luther King Jr.—are stories that connect with people on a deep level.
+
+The book shows how stories can help you:
+
+- Build strong brands
+- Inspire teams
+- Deliver unforgettable presentations
+- Launch movements
+
+Gallo uses real examples and science to explain why our brains are wired to love stories—especially 
+rags-to-riches ones—and how you can use storytelling to make your ideas stick. Whether you're leading 
+a business or trying to make an impact, telling
+ the right story can change everything.</value>
+  </data>
 </root>

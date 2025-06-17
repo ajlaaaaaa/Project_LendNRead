@@ -117,4 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Clear Thinking by Shane Parrish is a guide to making better decisions by recognizing the
+ key moments that shape our lives. Parrish explains that we often run on autopilot, missing 
+chances to think clearly when it matters most. Using stories, mental models, and insights 
+from behavioral science, he shows how to take control of your reactions, improve decision-making,
+ and live more intentionally.</value>
+  </data>
 </root>

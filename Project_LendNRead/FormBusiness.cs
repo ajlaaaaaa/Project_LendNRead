@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace Lend_N_Read
 {
-    public partial class FormGenre: Form
+    public partial class FormBusiness: Form
     {
-        public FormGenre()
+        public FormBusiness()
         {
             InitializeComponent();
         }
 
-        private void FormGenre_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }

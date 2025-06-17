@@ -117,4 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Right Thing. Right Now. by Ryan Holiday is the third book in his Stoic Virtues series.It focuses on
+ justice—the importance of doing what’s right,even when it’s difficult. Holiday argues that justice is the 
+foundation of all other virtues like courage, wisdom, and discipline.
+
+He uses powerful examples from history—like Marcus Aurelius, Florence Nightingale, Gandhi, and Frederick 
+Douglass—to show how living with honesty, kindness, and integrity leads to a meaningful life. The book also 
+warns against the dangers of ignoring your principles.
+
+Holiday reminds us that justice isn’t always easy, but it’s always necessary—and choosing 
+otherwise leads to regret and failure.
+
+
+
+
+
+
+
+
+</value>
+  </data>
 </root>

@@ -117,4 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>The Art of Clear Thinking is written by Hasard Lee, a U.S. fighter pilot who shares powerful lessons on how
+ to make better decisions under pressure. Drawing from his intense training and experience flying high-speed
+ jets, Lee explains how to think clearly and act quickly in any situation.
+
+The book includes stories from his time in the Air Force and key moments in history to show how these
+ skills work. You'll learn how to :
+- Learn faster and smarter
+- Build mental toughness
+- Make quick, confident decisions
+
+These techniques aren’t just for pilots—they’ve helped CEOs, astronauts, CIA agents, students, and
+ parents. This book will help you stay focused, make better choices, and improve how you handle 
+challenges in everyday life.
+
+
+
+
+
+
+
+</value>
+  </data>
 </root>

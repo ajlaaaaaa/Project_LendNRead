@@ -117,4 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Think Again by Adam Grant is about the power of rethinking—learning to question our beliefs
+ and stay open to new ideas. In a world that’s constantly changing, Grant argues that the ability
+ to unlearn and relearn is just as important as intelligence.
+
+We often hold tightly to our opinions for comfort, avoid disagreement, and surround ourselves 
+with people who think like us. Grant encourages us to think more like scientists—curious, open-minded,
+ and willing to be wrong.
+
+Through real-life stories and research, he shows how rethinking helps us grow, make better decisions, 
+and build healthier relationships and communities.
+ This book is a guide to becoming more flexible, curious, and wise in how we think and live.</value>
+  </data>
 </root>

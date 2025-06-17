@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Lend_N_Read
 {
-    public partial class FormGenre: Form
+    public partial class Science_Fiction2: Form
     {
-        public FormGenre()
+        public Science_Fiction2()
         {
             InitializeComponent();
-        }
-
-        private void FormGenre_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

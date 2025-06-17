@@ -1,6 +1,6 @@
-﻿namespace Project_LendNRead
+﻿namespace Lend_N_Read
 {
-    partial class Form1
+    partial class FormGenre
     {
         /// <summary>
         /// Required designer variable.
@@ -28,182 +28,183 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.genreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.romanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thrillerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.businessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.scienceFictionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.religionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mysteryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkOverdueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBoxName = new System.Windows.Forms.TextBox();
-            this.textBoxPassword = new System.Windows.Forms.TextBox();
+            this.labelRomance = new System.Windows.Forms.Label();
+            this.labelThriller = new System.Windows.Forms.Label();
+            this.labelScienceFiction = new System.Windows.Forms.Label();
+            this.labelReligion = new System.Windows.Forms.Label();
+            this.labelMystery = new System.Windows.Forms.Label();
+            this.labelBusiness = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // labelRomance
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.genreToolStripMenuItem,
-            this.aboutToolStripMenuItem,
-            this.checkOverdueToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(966, 33);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.labelRomance.AutoSize = true;
+            this.labelRomance.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRomance.Location = new System.Drawing.Point(119, 81);
+            this.labelRomance.Name = "labelRomance";
+            this.labelRomance.Size = new System.Drawing.Size(72, 19);
+            this.labelRomance.TabIndex = 6;
+            this.labelRomance.Text = "Romance";
             // 
-            // contextMenuStrip1
+            // labelThriller
             // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.labelThriller.AutoSize = true;
+            this.labelThriller.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelThriller.Location = new System.Drawing.Point(324, 81);
+            this.labelThriller.Name = "labelThriller";
+            this.labelThriller.Size = new System.Drawing.Size(64, 19);
+            this.labelThriller.TabIndex = 7;
+            this.labelThriller.Text = "Thriller";
             // 
-            // genreToolStripMenuItem
+            // labelScienceFiction
             // 
-            this.genreToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.romanceToolStripMenuItem,
-            this.thrillerToolStripMenuItem,
-            this.businessToolStripMenuItem,
-            this.scienceFictionToolStripMenuItem,
-            this.religionToolStripMenuItem,
-            this.mysteryToolStripMenuItem});
-            this.genreToolStripMenuItem.Name = "genreToolStripMenuItem";
-            this.genreToolStripMenuItem.Size = new System.Drawing.Size(74, 29);
-            this.genreToolStripMenuItem.Text = "Genre";
+            this.labelScienceFiction.AutoSize = true;
+            this.labelScienceFiction.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelScienceFiction.Location = new System.Drawing.Point(119, 305);
+            this.labelScienceFiction.Name = "labelScienceFiction";
+            this.labelScienceFiction.Size = new System.Drawing.Size(114, 19);
+            this.labelScienceFiction.TabIndex = 8;
+            this.labelScienceFiction.Text = "Science Fiction";
             // 
-            // romanceToolStripMenuItem
+            // labelReligion
             // 
-            this.romanceToolStripMenuItem.Name = "romanceToolStripMenuItem";
-            this.romanceToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.romanceToolStripMenuItem.Text = "Romance";
+            this.labelReligion.AutoSize = true;
+            this.labelReligion.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelReligion.Location = new System.Drawing.Point(324, 305);
+            this.labelReligion.Name = "labelReligion";
+            this.labelReligion.Size = new System.Drawing.Size(67, 19);
+            this.labelReligion.TabIndex = 9;
+            this.labelReligion.Text = "Religion";
             // 
-            // thrillerToolStripMenuItem
+            // labelMystery
             // 
-            this.thrillerToolStripMenuItem.Name = "thrillerToolStripMenuItem";
-            this.thrillerToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.thrillerToolStripMenuItem.Text = "Thriller";
+            this.labelMystery.AutoSize = true;
+            this.labelMystery.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMystery.Location = new System.Drawing.Point(545, 305);
+            this.labelMystery.Name = "labelMystery";
+            this.labelMystery.Size = new System.Drawing.Size(66, 19);
+            this.labelMystery.TabIndex = 10;
+            this.labelMystery.Text = "Mystery";
             // 
-            // businessToolStripMenuItem
+            // labelBusiness
             // 
-            this.businessToolStripMenuItem.Name = "businessToolStripMenuItem";
-            this.businessToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.businessToolStripMenuItem.Text = "Business";
+            this.labelBusiness.AutoSize = true;
+            this.labelBusiness.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelBusiness.Location = new System.Drawing.Point(541, 81);
+            this.labelBusiness.Name = "labelBusiness";
+            this.labelBusiness.Size = new System.Drawing.Size(70, 19);
+            this.labelBusiness.TabIndex = 11;
+            this.labelBusiness.Text = "Business";
             // 
-            // scienceFictionToolStripMenuItem
+            // label7
             // 
-            this.scienceFictionToolStripMenuItem.Name = "scienceFictionToolStripMenuItem";
-            this.scienceFictionToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.scienceFictionToolStripMenuItem.Text = "Science Fiction";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe Print", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(333, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(101, 47);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Genre";
             // 
-            // religionToolStripMenuItem
+            // pictureBox5
             // 
-            this.religionToolStripMenuItem.Name = "religionToolStripMenuItem";
-            this.religionToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.religionToolStripMenuItem.Text = "Religion";
+            this.pictureBox5.Image = global::Lend_N_Read.Properties.Resources.science_fiction;
+            this.pictureBox5.Location = new System.Drawing.Point(123, 327);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(146, 170);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 16;
+            this.pictureBox5.TabStop = false;
             // 
-            // mysteryToolStripMenuItem
+            // pictureBox4
             // 
-            this.mysteryToolStripMenuItem.Name = "mysteryToolStripMenuItem";
-            this.mysteryToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.mysteryToolStripMenuItem.Text = "Mystery";
+            this.pictureBox4.Image = global::Lend_N_Read.Properties.Resources.religion;
+            this.pictureBox4.Location = new System.Drawing.Point(328, 327);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(146, 170);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 15;
+            this.pictureBox4.TabStop = false;
             // 
-            // aboutToolStripMenuItem
+            // pictureBox3
             // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(78, 29);
-            this.aboutToolStripMenuItem.Text = "About";
+            this.pictureBox3.Image = global::Lend_N_Read.Properties.Resources.mystery;
+            this.pictureBox3.Location = new System.Drawing.Point(548, 327);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(146, 170);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 14;
+            this.pictureBox3.TabStop = false;
             // 
-            // checkOverdueToolStripMenuItem
+            // pictureBox7
             // 
-            this.checkOverdueToolStripMenuItem.Name = "checkOverdueToolStripMenuItem";
-            this.checkOverdueToolStripMenuItem.Size = new System.Drawing.Size(148, 29);
-            this.checkOverdueToolStripMenuItem.Text = "Check Overdue";
+            this.pictureBox7.Image = global::Lend_N_Read.Properties.Resources.business;
+            this.pictureBox7.Location = new System.Drawing.Point(545, 103);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(146, 170);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 13;
+            this.pictureBox7.TabStop = false;
             // 
-            // label1
+            // pictureBox2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Sitka Small", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(113, 77);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(712, 77);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Welcome to Lend N Read";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(525, 313);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 29);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Name :";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(525, 364);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(146, 29);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Password :";
-            // 
-            // textBoxName
-            // 
-            this.textBoxName.Location = new System.Drawing.Point(682, 313);
-            this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(245, 26);
-            this.textBoxName.TabIndex = 5;
-            // 
-            // textBoxPassword
-            // 
-            this.textBoxPassword.Location = new System.Drawing.Point(682, 364);
-            this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(245, 26);
-            this.textBoxPassword.TabIndex = 6;
+            this.pictureBox2.Image = global::Lend_N_Read.Properties.Resources.Thriller;
+            this.pictureBox2.Location = new System.Drawing.Point(325, 103);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(146, 170);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Project_LendNRead.Properties.Resources.books;
-            this.pictureBox1.Location = new System.Drawing.Point(37, 231);
+            this.pictureBox1.Image = global::Lend_N_Read.Properties.Resources.Romance;
+            this.pictureBox1.Location = new System.Drawing.Point(120, 103);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(447, 259);
+            this.pictureBox1.Size = new System.Drawing.Size(144, 170);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // Form1
+            // FormGenre
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(966, 577);
+            this.ClientSize = new System.Drawing.Size(800, 553);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.labelBusiness);
+            this.Controls.Add(this.labelMystery);
+            this.Controls.Add(this.labelReligion);
+            this.Controls.Add(this.labelScienceFiction);
+            this.Controls.Add(this.labelThriller);
+            this.Controls.Add(this.labelRomance);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.textBoxName);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.Name = "FormGenre";
+            this.Text = "Genre";
+            this.Load += new System.EventHandler(this.FormGenre_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -212,25 +213,19 @@
 
         #endregion
 
-        private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.ToolTip toolTip2;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem genreToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem romanceToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem thrillerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem businessToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem scienceFictionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem religionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mysteryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem checkOverdueToolStripMenuItem;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBoxName;
-        private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label labelRomance;
+        private System.Windows.Forms.Label labelThriller;
+        private System.Windows.Forms.Label labelScienceFiction;
+        private System.Windows.Forms.Label labelReligion;
+        private System.Windows.Forms.Label labelMystery;
+        private System.Windows.Forms.Label labelBusiness;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
 

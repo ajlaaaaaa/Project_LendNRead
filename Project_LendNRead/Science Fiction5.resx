@@ -117,4 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>The Land of Stories: An Author’s Odyssey is the fifth book in Chris Colfer’s bestselling series.
+
+The evil Masked Man has captured all the royal families with help from famous villains like the Wicked Witch,
+ the Queen of Hearts, and Captain Hook. He plans to take over the Land of Stories as emperor.
+
+To stop him, twins Alex and Conner travel into Conner’s own stories to gather an army of heroes—pirates, 
+cyborgs,mummies, and more. As they prepare for an epic battle, an even greater threat begins to rise—one 
+that could change both the fairy tale world and the real world forever.</value>
+  </data>
 </root>

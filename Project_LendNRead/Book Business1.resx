@@ -117,4 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>“How to Make Money from Your Stock Investment Even in a Falling Market” was first published in
+ Malaysia in 2004. Up until 2018, over 35,000 copies have been sold, making it an evergreen bestseller.
+ In this new edition, Ho Kok Mun has added more case studies,
+ included new calculations samples, enhanced stocks selection criteria, elaborated on dividend topic,
+ analysed annual report, updated frequently asked questions and discussed many other essential topics.
+ Stock investment is a great source of confusion for many.They equate investing in stock to gambling, 
+therefore see it as extremely risky. The truth is, stock investment is not risky at all. It
+ is risky if only it is done without proper knowledge</value>
+  </data>
 </root>

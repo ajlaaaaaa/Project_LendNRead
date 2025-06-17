@@ -117,4 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>The Land of Stories: Beyond the Kingdoms is the fourth book in Chris Colfer’s bestselling fantasy series.
+
+Alex and Conner Bailey must stop the evil Masked Man, who is using a magic potion to turn books into 
+portals—and he’s building an army of villains from classic literature. But with Alex kicked off the Fairy 
+Council, few believe the danger is real.
+
+With help from Goldilocks, Jack, Red Riding Hood, Mother Goose, and her flying goose Lester, the twins 
+race through worlds like Oz, Neverland, and Wonderland to stop him. It’s a thrilling journey where fairy 
+tales and famous stories collide—and time is running out.</value>
+  </data>
 </root>
